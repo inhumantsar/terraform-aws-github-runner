@@ -65,7 +65,7 @@ export AWS_REGION=<region>
 export AWS_PROFILE=gh-development
 ```
 
-For SAM a `template.yml` defines the lambda for running local. Thats all, now build your the lambda with `yarn run dist` and next invoke the lambda with `sam local invoke`.
+For SAM a `template.yml` defines the lambda for running locally. Thats all, now build your lambda with `yarn run dist` and then invoke the lambda with `sam local invoke`.
 
 
 ### With Node
