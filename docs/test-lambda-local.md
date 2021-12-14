@@ -11,7 +11,7 @@ Just navigate to AWS Lambda en trigger a test event. Provide an event that match
 
 Testing locally can be done in two ways; using AWS SAM framework or run via a wrapper to simulate the event to invoke the lambda. Both setups require that the mandatory input environment variables be set, and AWS resources on which the lambda depends are available. We advise for testing the lambda locally to first create your own deployment of the whole module to AWS, this will simplify the setup of dependent AWS resources. For example, based on the de [default example](../../../../examples/default/).
 
-Locally test setups instruction are available for the following lambda's
+Local test setup instructions are available for the following lambda's:
 
 - [runner-binary-syncer](./moduele/../../modules/runner-binaries-syncer/lambdas/runner-binaries-syncer) - This lambda does not need any input, no event is required. Supported via SAM and local Node.
 
