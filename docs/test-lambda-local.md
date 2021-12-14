@@ -1,6 +1,6 @@
 # Lambda - Test locally
 
-This README provide guidance for testing the lambda locally / and or in AWS. This guide assumes you are familiar with AWS, lambda and Node. If not mention explicit comments provided should be executed from the root of the lambda package.
+This README provides guidance for testing the lambda locally / and or in AWS. This guide assumes you are familiar with AWS, lambda and Node. If not mentioned explicitly, comments provided should be executed from the root of the lambda package.
 
 ## Testing in AWS
 
