@@ -17,7 +17,7 @@ Locally test setups instruction are available for the following lambda's
 
 ### Extend deployment configuration
 
-Add the code below to your Terraform deployment, to allow your principal to use the Lambda role, and retrieve the lambda configuration. Update your Terraform deployment and apply the changes.
+Add the code below to your Terraform deployment to allow your principal to use the Lambda role and retrieve the lambda configuration. Update your Terraform deployment and apply the changes.
 
 ```hcl
 data "aws_caller_identity" "current" {}
