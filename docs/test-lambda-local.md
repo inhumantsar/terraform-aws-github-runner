@@ -9,7 +9,7 @@ Just navigate to AWS Lambda en trigger a test event. Provide an event that match
 
 ## Testing locally
 
-Testing locally can be done in two ways. Using aws SAM framework, or run via a wrapper to simulate the event to invoke the lambda. Both setups requires that the required input environment variables are set, and AWS resources on which the lambda depends are available. We advise for testing the lambda locally to first create your own deployment to AWS, this will simplify the setup on depended AWS resources. For example based on the de [default example](../../../../examples/default/).
+Testing locally can be done in two ways; using AWS SAM framework or run via a wrapper to simulate the event to invoke the lambda. Both setups require that the mandatory input environment variables be set, and AWS resources on which the lambda depends are available. We advise for testing the lambda locally to first create your own deployment of the whole module to AWS, this will simplify the setup of dependent AWS resources. For example, based on the de [default example](../../../../examples/default/).
 
 Locally test setups instruction are available for the following lambda's
 
