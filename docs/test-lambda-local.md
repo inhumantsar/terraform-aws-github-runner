@@ -72,7 +72,7 @@ For SAM a `template.yml` defines the lambda for running local. Thats all, now bu
 
 Instead of using SAM you can use Node with `ts-node-dev` to test the code locally. The drawback is that you have to setup AWS credentials in your shell. Also, you are dependent on a tiny wrapper (`local.ts`), and your local Node version.
 
-The AWS SDK seems not to handle environment variables for profile, the only option to pass the role is via credentials. You can get credentials via STS for the role.
+The AWS SDK does not seem to handle environment variables for profiles, the only option to pass the role is via credentials. You can get credentials via STS for the role.
 
 ```bash
 
