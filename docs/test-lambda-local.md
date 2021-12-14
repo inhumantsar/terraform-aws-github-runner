@@ -58,7 +58,7 @@ region=<DEFAULT_REGION>
 role_arn=<ARN_CHECK_TF_OUTPUT>
 ```
 
-Now you can set the profile and region as environment variable or pass as argument to sam.
+Now you can set the profile and region as environment variables or pass as argument to SAM.
 
 ```
 export AWS_REGION=<region>
