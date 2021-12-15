@@ -40,7 +40,7 @@ output "development" {
   }
 }```
 
-Once you have updated your Terraform deployment read the lambda configuration into your environment. Run the commands below in your Terraform workspace folder.
+Once you have updated your Terraform deployment you need to read the lambda configuration into your environment. Run the commands below in your Terraform workspace folder.
 
 ```bash
 LAMBDA_ENV=$(terraform output -json development | jq -r '.lambda_syncer.environment[].variables' | jq -r "to_entries|map(\"\(.key)=\(.value|tostring)\")|.[]")
