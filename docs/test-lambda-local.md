@@ -49,7 +49,7 @@ for x in $LAMBDA_ENV ; do echo setting $x; export $x; done
 
 ### Testing with SAM
 
-This setup requires AWS SAM cli and Docker is installed. First update the AWS config (`~/.aws/config`) so you can use easy switch to the role used by the lambda.
+This setup requires AWS SAM CLI and Docker is installed locally. First update the AWS config (`~/.aws/config`) so you can use easily switch to the role used by the lambda.
 
 ```properties
 [profile gh-development]
