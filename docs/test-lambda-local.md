@@ -26,7 +26,7 @@ module "runners" {
   
   ...
 
-  # Assume you have a profile with Admin privileges, allow yo to switch to the Lambda role
+  # Assume you have a profile with Admin privileges, allow you to switch to the Lambda role
   lambda_principals = [{
     type        = "AWS"
     identifiers = ["arn:aws:iam::${data.aws_caller_identity.current.account_id}:root"]
