@@ -4,7 +4,7 @@ This README provides guidance for testing the lambda locally / and or in AWS. Th
 
 ## Testing in AWS
 
-Just navigate to AWS Lambda en trigger a test event. Provide an event that match the required input. For lambdas that does not require a specific event, just sent any event.
+Just navigate to the Lambda in the AWS Console and trigger a test event. Provide an event that matches the required input. For lambdas that does not require a specific event, just send any event.
 
 
 ## Testing locally
